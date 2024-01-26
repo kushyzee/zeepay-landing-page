@@ -75,7 +75,6 @@ body {
 }
 
 .hero-image {
-	border-radius: 10px;
 	flex: auto;
 	min-width: 300px;
 }
@@ -110,6 +109,7 @@ h1 {
 .why-us {
 	text-align: center;
 	margin-block: 4rem 8rem;
+	padding-inline: 3rem;
 }
 
 .why-us h2 {
@@ -156,6 +156,7 @@ h1 {
 	max-width: 840px;
 	margin: 0 auto;
 	flex-direction: column;
+	padding-inline: 3rem;
 }
 
 .quote {
@@ -172,3 +173,37 @@ h1 {
 	align-self: flex-end;
 }
 
+.call-to-action {
+	display: flex;
+	padding: 4rem;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 10px;
+	margin-bottom: 6rem;
+}
+
+.call-to-action .text {
+	width: 70%;
+}
+
+.call-to-action h3 {
+	font-size: 3.5rem;
+}
+
+.call-to-action p {
+	font-size: 2rem;
+	/* text-wrap: balance; */
+	margin-top: 1.2rem;
+}
+
+.btn.sign-up {
+	border: 2px solid white;
+}
+
+footer {
+	padding-block: 5rem;
+	text-align: center;
+	background-color: #1f2937;
+	color: white;
+	font-size: 2rem;
+}
