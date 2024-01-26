@@ -132,7 +132,6 @@ h1 {
 .products {
 	display: flex;
 	justify-content: space-evenly;
-	/* align-items: flex-start; */
 	max-width: 980px;
 	margin-inline: auto;
 	gap: 2rem;
