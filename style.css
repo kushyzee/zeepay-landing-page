@@ -32,7 +32,7 @@ body {
 .hero-section {
   background-color: #1f2937;
   color: white;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2.5rem;
 }
 
 .header {
@@ -71,7 +71,7 @@ body {
 }
 
 .hero-body {
-	flex: 400px;
+	flex: 370px;
 }
 
 .hero-image {
@@ -84,13 +84,14 @@ h1 {
 	font-family: poppins, sans-serif;
 	font-size: 4.8rem;
 	color: #f9faf8;
-	margin-bottom: .8rem;
+	margin-bottom: 1.2rem;
+	line-height: 1.2;
 }
 
 .hero-body p {
 	text-wrap: pretty;
 	line-height: 1.4;
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 }
 
 .btn {
@@ -104,4 +105,39 @@ h1 {
 .btn, .call-to-action {
 	background-color: #3882f6;
 	color: white;
+}
+
+.why-us {
+	text-align: center;
+	margin-block: 3rem 6rem;
+}
+
+.why-us h2 {
+	font-size: 3.6rem;
+	font-family: poppins, sans-serif;
+	color: #1f2937;
+}
+
+.products {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	max-width: 900px;
+	margin-inline: auto;
+	gap: 2rem;
+}
+
+.card {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card p {
+	text-wrap: balance;
+}
+
+.products img {
+	width: 50%;
 }
